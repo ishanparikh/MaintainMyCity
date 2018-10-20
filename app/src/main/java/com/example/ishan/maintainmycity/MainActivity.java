@@ -87,9 +87,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         map = mapboxMap;
         map.addOnMapClickListener(this);
         enableLocation();
-
-
-
     }
 
 
