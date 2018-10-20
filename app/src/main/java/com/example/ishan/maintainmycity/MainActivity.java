@@ -66,6 +66,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
+        reportButton.setEnabled(true);
+        reportButton.setBackgroundResource(R.color.mapbox_blue);
+
         reportButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -244,7 +247,5 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     //    destPos = Point.fromLngLat(point.getLongitude(),point.getLatitude());
     //    origPos = Point.fromLngLat(originLocation.getLongitude(),originLocation.getLatitude());
 
-    //    reportButton.setEnabled(true);
-    //    reportButton.setBackgroundResource(R.color.mapbox_blue);
     }
 }
