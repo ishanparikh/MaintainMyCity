@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
-
         reportButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,6 +92,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // push data to the database
     }
 
+    public static void updateMap() {
+        // TODO
+        // pull points from database, convert to geoJson, and update map with new markers
+    }
+
     @Override
     public void onMapReady(MapboxMap mapboxMap) {
         map = mapboxMap;
@@ -101,25 +105,18 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
-    private void enableLocation()
-    {
-        if(PermissionsManager.areLocationPermissionsGranted(this))
-        {
+    private void enableLocation() {
+        if(PermissionsManager.areLocationPermissionsGranted(this)) {
             initializeLocationEngine();
             initializeLocationLayer();
-
-        }
-        else
-        {
+        } else {
             permissionsManager = new PermissionsManager(this);
             permissionsManager.requestLocationPermissions(this );
-
         }
     }
 
     @SuppressLint("MissingPermission")
-    private void initializeLocationEngine()
-    {
+    private void initializeLocationEngine() {
         locationEngine = new LocationEngineProvider(this).obtainBestLocationEngineAvailable();
         locationEngine.setPriority(LocationEnginePriority.HIGH_ACCURACY);
         //locationEngine.addLocationEngineListener(this);
@@ -127,28 +124,22 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         Location lastLocation = locationEngine.getLastLocation();
-        if (lastLocation != null)
-        {
+        if (lastLocation != null) {
             originLocation = lastLocation;
             setCameraPosition(lastLocation);
-        }else {
+        } else
             locationEngine.addLocationEngineListener(this);
-        }
-
     }
 
     @SuppressLint("MissingPermission")
-    private void initializeLocationLayer()
-    {
+    private void initializeLocationLayer() {
         locationLayerPlugin = new LocationLayerPlugin(mapView,map,locationEngine);
         locationLayerPlugin.setLocationLayerEnabled(true);
         locationLayerPlugin.setCameraMode(CameraMode.TRACKING);
         locationLayerPlugin.setRenderMode(RenderMode.NORMAL);
-
-
     }
 
-    private void setCameraPosition(Location location){
+    private void setCameraPosition(Location location) {
         map.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(),
                 location.getLongitude()),13.0));
     }
@@ -157,7 +148,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onConnected() {
         locationEngine.requestLocationUpdates();
-
     }
 
     @Override
@@ -166,7 +156,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             originLocation = location;
             setCameraPosition(location);
         }
-
     }
 
 
@@ -179,16 +168,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
     }
 
     @Override
     public void onPermissionResult(boolean granted) {
         if (granted)
-        {
             enableLocation();
-        }
-
     }
 
     @Override
@@ -200,15 +185,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     protected void onStart() {
         super.onStart();
-        if(locationEngine != null){
+        if(locationEngine != null) {
             locationEngine.requestLocationUpdates();
-        }
-        if(locationLayerPlugin != null){
+        } if(locationLayerPlugin != null)
             locationLayerPlugin.onStart();
-        }
 
         mapView.onStart();
-
     }
 
     @Override
@@ -227,12 +209,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onStop() {
         super.onStop();
 
-        if(locationEngine != null){
+        if(locationEngine != null) {
             locationEngine.removeLocationUpdates();
-        }
-        if(locationLayerPlugin != null){
+        } if(locationLayerPlugin != null)
             locationLayerPlugin.onStop();
-        }
         mapView.onStop();
     }
 
@@ -240,7 +220,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
         mapView.onSaveInstanceState(outState);
-
     }
 
     @Override
@@ -252,9 +231,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(locationEngine != null){
+        if (locationEngine != null)
             locationEngine.deactivate();
-        }
+
         mapView.onDestroy();
     }
 
@@ -267,6 +246,5 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         reportButton.setEnabled(true);
         reportButton.setBackgroundResource(R.color.mapbox_blue);
-
     }
 }
