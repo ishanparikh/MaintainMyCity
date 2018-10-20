@@ -1,0 +1,333 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/71fba055f8df0402c8d9652fe905d482/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.5.2] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.5.2.aar/d76fcf4f18dbfa8bcbd37f50f7b45c44/AndroidManifest.xml:2:1-10:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/956eaa1d31dc55ea032352b89f920d81/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anthony/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3fa12d202b9f741886d471f9ee00a403/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.7.5.aar/ba04d1d2c8ece8f8bca2f77c7402c3cb/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5ecf381ac2cca3dcadb5eda402dc1f89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:2:1-21:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:2:1-10:80
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/98aae3ee5a9c1f0957da902740be92c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d6504fb29774dce600a249a3fbcc1159/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:2:1-19:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14798ffdf4b286853db4e628e8207afa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ed3966017d4063e8477a2a9f00b63b03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/db3c5aa3449501ced14e69a1472bb152/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c8f56615ea5cd9e82272b2014b700f92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d2c4b896091b25a634048587ff126e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/05c5b6e10335403491e177caec58b5ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f0404732d99f1e924ef3f4ea0f932502/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/89ff1a67e394719114e5f565d4d8262d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04087f1442bc275cb954265e0907e805/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc0fe7880cbae6d2461d11dbfdec92f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57c32c280a495b461d8b8c0464deb8fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cca1f4694bff3427aef05e2f5395debf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2941774b2ace62ab9df9135531af6fcb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/44b2ab066d7cc6adfca3f2d4237a335f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8b00267d9dfa2b69c4877c8178b193e1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e1e0213cf0742c4f4883bf3309f10779/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8d40679e4cd011c55190a3cdd711fbf2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0cd3f7852a738b38790b7e1b8277effa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9651a656d1946cadca908e1186705140/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8a191a0c0d734236ae0cef2abc6c3f22/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d33bc6b11411403297ae18f7e879f957/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6e087f6c9762bbb8aa8839ab8a6ea1e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/73d014621b03318bf307ee7f2bfa13e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/95a3dbe366cae59de9a4a1d9a453fda8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bea398e56a2dc1a8654932458c349080/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9137260ef4dbd1ac3c3ebc11ccb8b43b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/89f78cc758477c2943851c92147f8eae/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/9ca636ff762c22046a2167877fc2c0a5/AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.7.5.aar/d02bacb72f8c7b1f5f4a342ae86d0c2c/AndroidManifest.xml:2:1-4:80
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/6d40043c3138b55b2ff724bd8a6a1c55/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/6d40043c3138b55b2ff724bd8a6a1c55/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/6d40043c3138b55b2ff724bd8a6a1c55/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:16:5-67
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:17:5-79
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:9:5-27:19
+MERGED from [com.android.support:design:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/71fba055f8df0402c8d9652fe905d482/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/71fba055f8df0402c8d9652fe905d482/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anthony/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3fa12d202b9f741886d471f9ee00a403/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anthony/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3fa12d202b9f741886d471f9ee00a403/AndroidManifest.xml:9:5-20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:8:6-20:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:8:6-20:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:7:5-9:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:7:5-9:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:15:5-17:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:15:5-17:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8b00267d9dfa2b69c4877c8178b193e1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8b00267d9dfa2b69c4877c8178b193e1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/9ca636ff762c22046a2167877fc2c0a5/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/9ca636ff762c22046a2167877fc2c0a5/AndroidManifest.xml:8:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.example.ishan.maintainmycity.LoginActivity
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:16:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.ishan.maintainmycity.MainActivity
+ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:23:9-26:68
+	android:label
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:25:13-57
+	android:theme
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml:24:13-41
+uses-sdk
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/71fba055f8df0402c8d9652fe905d482/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/71fba055f8df0402c8d9652fe905d482/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.5.2] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.5.2.aar/d76fcf4f18dbfa8bcbd37f50f7b45c44/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.5.2] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-plugin-locationlayer-0.5.2.aar/d76fcf4f18dbfa8bcbd37f50f7b45c44/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/956eaa1d31dc55ea032352b89f920d81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/956eaa1d31dc55ea032352b89f920d81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anthony/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3fa12d202b9f741886d471f9ee00a403/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anthony/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3fa12d202b9f741886d471f9ee00a403/AndroidManifest.xml:5:5-7:41
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.7.5.aar/ba04d1d2c8ece8f8bca2f77c7402c3cb/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.7.5.aar/ba04d1d2c8ece8f8bca2f77c7402c3cb/AndroidManifest.xml:4:5-73
+MERGED from [com.android.support:support-v4:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5ecf381ac2cca3dcadb5eda402dc1f89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/5ecf381ac2cca3dcadb5eda402dc1f89/AndroidManifest.xml:20:5-44
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:21:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:10:1-69
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/98aae3ee5a9c1f0957da902740be92c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/98aae3ee5a9c1f0957da902740be92c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d6504fb29774dce600a249a3fbcc1159/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d6504fb29774dce600a249a3fbcc1159/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:11:5-13:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:11:5-13:41
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14798ffdf4b286853db4e628e8207afa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14798ffdf4b286853db4e628e8207afa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ed3966017d4063e8477a2a9f00b63b03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/ed3966017d4063e8477a2a9f00b63b03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/db3c5aa3449501ced14e69a1472bb152/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/db3c5aa3449501ced14e69a1472bb152/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c8f56615ea5cd9e82272b2014b700f92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c8f56615ea5cd9e82272b2014b700f92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d2c4b896091b25a634048587ff126e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/8d2c4b896091b25a634048587ff126e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/05c5b6e10335403491e177caec58b5ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/05c5b6e10335403491e177caec58b5ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f0404732d99f1e924ef3f4ea0f932502/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/f0404732d99f1e924ef3f4ea0f932502/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/89ff1a67e394719114e5f565d4d8262d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/89ff1a67e394719114e5f565d4d8262d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04087f1442bc275cb954265e0907e805/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/04087f1442bc275cb954265e0907e805/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc0fe7880cbae6d2461d11dbfdec92f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc0fe7880cbae6d2461d11dbfdec92f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57c32c280a495b461d8b8c0464deb8fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/57c32c280a495b461d8b8c0464deb8fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cca1f4694bff3427aef05e2f5395debf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cca1f4694bff3427aef05e2f5395debf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2941774b2ace62ab9df9135531af6fcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2941774b2ace62ab9df9135531af6fcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/44b2ab066d7cc6adfca3f2d4237a335f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/44b2ab066d7cc6adfca3f2d4237a335f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/325d487383a6fd3e71aac1009a67c820/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8b00267d9dfa2b69c4877c8178b193e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8b00267d9dfa2b69c4877c8178b193e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e1e0213cf0742c4f4883bf3309f10779/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e1e0213cf0742c4f4883bf3309f10779/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8d40679e4cd011c55190a3cdd711fbf2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8d40679e4cd011c55190a3cdd711fbf2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0cd3f7852a738b38790b7e1b8277effa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0cd3f7852a738b38790b7e1b8277effa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9651a656d1946cadca908e1186705140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9651a656d1946cadca908e1186705140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8a191a0c0d734236ae0cef2abc6c3f22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/8a191a0c0d734236ae0cef2abc6c3f22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d33bc6b11411403297ae18f7e879f957/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d33bc6b11411403297ae18f7e879f957/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6e087f6c9762bbb8aa8839ab8a6ea1e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6e087f6c9762bbb8aa8839ab8a6ea1e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/73d014621b03318bf307ee7f2bfa13e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/73d014621b03318bf307ee7f2bfa13e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/95a3dbe366cae59de9a4a1d9a453fda8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/95a3dbe366cae59de9a4a1d9a453fda8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bea398e56a2dc1a8654932458c349080/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bea398e56a2dc1a8654932458c349080/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9137260ef4dbd1ac3c3ebc11ccb8b43b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9137260ef4dbd1ac3c3ebc11ccb8b43b/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/89f78cc758477c2943851c92147f8eae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-gestures-0.2.0.aar/89f78cc758477c2943851c92147f8eae/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/9ca636ff762c22046a2167877fc2c0a5/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/9ca636ff762c22046a2167877fc2c0a5/AndroidManifest.xml:6:5-43
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.7.5.aar/d02bacb72f8c7b1f5f4a342ae86d0c2c/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.7.5.aar/d02bacb72f8c7b1f5f4a342ae86d0c2c/AndroidManifest.xml:4:1-69
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/6d40043c3138b55b2ff724bd8a6a1c55/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-core-0.2.1.aar/6d40043c3138b55b2ff724bd8a6a1c55/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		ADDED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anthony/Documents/Apps/MaintainMyCity/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:13:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:18:5-76
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:6:5-75
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:6.6.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-sdk-6.6.0.aar/bd3ce029792aaaf4cc353eaabc710b83/AndroidManifest.xml:18:22-73
+activity#com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:9:10-10:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:9:220-256
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:9:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:9:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:9:146-219
+activity#com.amazonaws.mobile.auth.userpools.SignUpActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:12:10-13:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:12:204-240
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:12:91-137
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:12:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:12:138-203
+activity#com.amazonaws.mobile.auth.userpools.MFAActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:15:10-16:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:15:197-233
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:15:91-133
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:15:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:15:134-196
+activity#com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:18:10-19:21
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:18:219-255
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:18:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:18:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-userpools-2.7.5.aar/88b047288c692c0a3bfd5e9888215e75/AndroidManifest.xml:18:146-218
+activity#com.amazonaws.mobile.auth.ui.SignInActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:8:9-234
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:8:196-232
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:8:90-136
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:8:19-89
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.5] /home/anthony/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-ui-2.7.5.aar/7d8a81842d91c2d8e94b967b2c9c3556/AndroidManifest.xml:8:137-195
+service#com.mapbox.android.telemetry.TelemetryService
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:16:9-81
+	android:name
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.2.1] /home/anthony/.gradle/caches/transforms-1/files-1.1/mapbox-android-telemetry-3.2.1.aar/473bb4a908c9137af0f731c83ac4d8f8/AndroidManifest.xml:16:18-78
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/anthony/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/fd1599e96f8187f9302ea71829a08d99/AndroidManifest.xml:24:13-83

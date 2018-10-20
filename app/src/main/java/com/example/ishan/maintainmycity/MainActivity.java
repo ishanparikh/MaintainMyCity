@@ -37,6 +37,7 @@ import com.mapbox.mapboxsdk.plugins.locationlayer.modes.RenderMode;
 import com.amazonaws.mobile.client.AWSMobileClient;
 
 
+import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, LocationEngineListener, PermissionsListener, MapboxMap.OnMapClickListener{
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onClick(View v) {
                 LatLng point = new LatLng(originLocation.getLatitude(), originLocation.getLongitude());
                 destinationMarker = map.addMarker(new MarkerOptions().position(point));
+                put(point);
             }
         });
 
@@ -80,6 +82,15 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Log.d("YourMainActivity", "AWSMobileClient is instantiated and you are connected to AWS!");
             }
         }).execute();
+    }
+
+    public static void put(LatLng point) {
+        double lat = point.getLatitude();
+        double lng = point.getLongitude();
+        long date = new Date().getTime()/1000;
+
+        // TODO
+        // push data to the database
     }
 
     @Override
