@@ -238,8 +238,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
-    //@Override
-    //public void onMapClick(@NonNull LatLng point) {
+    @Override
+    public void onMapClick(@NonNull LatLng point) {
     //    destinationMarker = map.addMarker(new MarkerOptions().position(point));
     //    destPos = Point.fromLngLat(point.getLongitude(),point.getLatitude());
     //    origPos = Point.fromLngLat(originLocation.getLongitude(),originLocation.getLatitude());
