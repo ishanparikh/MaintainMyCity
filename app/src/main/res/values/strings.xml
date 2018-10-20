@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MaintainMyCity</string>
+    <string name="access_token">pk.eyJ1IjoiaXNoYW5wYXJpa2giLCJhIjoiY2puOHh6YnMyMWxsNzNwb2NueHR1Yzg4MSJ9.EL8LcRXpow2AWalA1GFjRA</string>
 </resources>
