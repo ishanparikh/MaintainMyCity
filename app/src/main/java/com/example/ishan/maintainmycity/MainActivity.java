@@ -23,10 +23,8 @@ import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 
 import com.mapbox.android.core.location.LocationEngine;
-import com.mapbox.android.core.location.LocationEngineListener;
 import com.mapbox.android.core.location.LocationEnginePriority;
 import com.mapbox.android.core.location.LocationEngineProvider;
-import com.mapbox.android.core.permissions.PermissionsListener;
 import com.mapbox.android.core.permissions.PermissionsManager;
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
@@ -51,26 +49,28 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LocationLayerPlugin locationLayerPlugin;
     private Point origPos;
     private Point destPos;
+    private Point current;
     private Marker destinationMarker;
-    private Button startButton;
+    private Button reportButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Mapbox.getInstance(this,getString(R.string.access_token));
+        Mapbox.getInstance(this, getString(R.string.access_token));
 //        MapboxAccountManager.start(this, getString(R.string.access_token));
         setContentView(R.layout.activity_main);
-        startButton = findViewById(R.id.startButton);
+        reportButton = findViewById(R.id.reportButton);
 
         mapView = (MapView) findViewById((R.id.mapView));
         mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
 
-        startButton.setOnClickListener(new View.OnClickListener() {
+        reportButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                LatLng point = new LatLng(originLocation.getLatitude(), originLocation.getLongitude());
+                destinationMarker = map.addMarker(new MarkerOptions().position(point));
             }
         });
 
@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Log.d("YourMainActivity", "AWSMobileClient is instantiated and you are connected to AWS!");
             }
         }).execute();
-
     }
 
     @Override
@@ -258,8 +257,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         destPos = Point.fromLngLat(point.getLongitude(),point.getLatitude());
         origPos = Point.fromLngLat(originLocation.getLongitude(),originLocation.getLatitude());
 
-        startButton.setEnabled(true);
-        startButton.setBackgroundResource(R.color.mapbox_blue);
+        reportButton.setEnabled(true);
+        reportButton.setBackgroundResource(R.color.mapbox_blue);
 
     }
 }

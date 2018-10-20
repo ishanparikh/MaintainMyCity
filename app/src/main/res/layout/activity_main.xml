@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:id="@+id/mapView"
         android:layout_height="match_parent"
-        mapbox:mapbox_cameraTargetLat="55.944366"
-        mapbox:mapbox_cameraTargetLng="-3.1868613"
+        mapbox:mapbox_cameraTargetLat="55.944849"
+        mapbox:mapbox_cameraTargetLng="-3.186349"
         mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"
         mapbox:mapbox_cameraZoom="12"
         />
 
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/reportButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
