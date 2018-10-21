@@ -42,8 +42,6 @@ import java.math.RoundingMode;
 import java.util.Date;
 import java.util.List;
 
-import static java.lang.Math.round;
-
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, LocationEngineListener, PermissionsListener, MapboxMap.OnMapClickListener{
 
     private MapView mapView;
@@ -104,7 +102,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // pull points from database, convert to geoJson, and update map with new markers
     }
 
-    @Override
     public static double round(double value, int places) {
         if (places < 0) throw new IllegalArgumentException();
 
