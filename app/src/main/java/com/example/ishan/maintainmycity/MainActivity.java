@@ -63,10 +63,23 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         mapView = (MapView) findViewById((R.id.mapView));
         mapView.onCreate(savedInstanceState);
-        mapView.getMapAsync(this);
+        //mapView.getMapAsync(this);
+        mapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(MapboxMap mapboxMap) {
+
+
+            }});
 
         reportButton.setEnabled(true);
         reportButton.setBackgroundResource(R.color.mapbox_blue);
+
+        AWSMobileClient.getInstance().initialize(this, new AWSStartupHandler() {
+            @Override
+            public void onComplete(AWSStartupResult awsStartupResult) {
+                Log.d("YourMainActivity", "AWSMobileClient is instantiated and you are connected to AWS!");
+            }
+        }).execute();
 
         reportButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,13 +89,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 put(point);
             }
         });
-
-        AWSMobileClient.getInstance().initialize(this, new AWSStartupHandler() {
-            @Override
-            public void onComplete(AWSStartupResult awsStartupResult) {
-                Log.d("YourMainActivity", "AWSMobileClient is instantiated and you are connected to AWS!");
-            }
-        }).execute();
     }
 
     public static void put(LatLng point) {
