@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }).execute();
 
 
-        new DownloadFileTask().execute("http://homepages.inf.ed.ac.uk/stg/coinz/2018/10/03/coinzmap.geojson");
+        new DownloadFileTask().execute("URL");
     }
 
 
