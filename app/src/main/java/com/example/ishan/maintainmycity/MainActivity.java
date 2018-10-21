@@ -37,8 +37,12 @@ import com.mapbox.mapboxsdk.plugins.locationlayer.modes.RenderMode;
 import com.amazonaws.mobile.client.AWSMobileClient;
 
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Date;
 import java.util.List;
+
+import static java.lang.Math.round;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, LocationEngineListener, PermissionsListener, MapboxMap.OnMapClickListener{
 
@@ -48,9 +52,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LocationEngine locationEngine;
     private Location originLocation;
     private LocationLayerPlugin locationLayerPlugin;
-    private Point origPos;
-    private Point destPos;
-    private Point current;
     private Marker destinationMarker;
     private Button reportButton;
 
@@ -87,17 +88,29 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     public static void put(LatLng point) {
-        double lat = point.getLatitude();
-        double lng = point.getLongitude();
-        long date = new Date().getTime()/1000;
+        double lat = round(point.getLatitude(),4);
+        double lng = round(point.getLongitude(), 4);
 
         // TODO
-        // push data to the database
+        // send these to the lambda functions
+        String user = "";
+        String latLng = Double.toString(lat) + '_' + Double.toString(lng);
+        long date = new Date().getTime()/1000;
+
     }
 
     public static void updateMap() {
         // TODO
         // pull points from database, convert to geoJson, and update map with new markers
+    }
+
+    @Override
+    public static double round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
+
+        BigDecimal bd = new BigDecimal(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        return bd.doubleValue();
     }
 
     @Override
@@ -160,7 +173,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             setCameraPosition(location);
         }
     }
-
 
     @Override
     public void onExplanationNeeded(List<String> permissionsToExplain) {
