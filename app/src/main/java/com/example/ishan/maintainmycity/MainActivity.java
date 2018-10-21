@@ -63,13 +63,16 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         mapView = (MapView) findViewById((R.id.mapView));
         mapView.onCreate(savedInstanceState);
-        //mapView.getMapAsync(this);
-        mapView.getMapAsync(new OnMapReadyCallback() {
-            @Override
-            public void onMapReady(MapboxMap mapboxMap) {
+        mapView.getMapAsync(this);
+        //mapView.getMapAsync(new OnMapReadyCallback() {
+        //    @Override
+        //    public void onMapReady(MapboxMap mapboxMap) {
+        //        map = mapboxMap;
+        //        enableLocation();
+        //    // Customize map with markers, polylines, etc.
 
-
-            }});
+        //    }
+        //});
 
         reportButton.setEnabled(true);
         reportButton.setBackgroundResource(R.color.mapbox_blue);
@@ -97,10 +100,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // TODO
         // send these to the lambda functions
-        String user = "";
+        String user = "Anthony Catterwell";
         String latLng = Double.toString(lat) + '_' + Double.toString(lng);
         long date = new Date().getTime()/1000;
+        String command = "python -c ./lambda.py";
+        String param = " put " + user + " " + latLng + " " + date;
+        String s = command + param;
+        try {
+            Process p = Runtime.getRuntime().exec(s);
+        } catch (Exception e) {
 
+        }
     }
 
     public static void updateMap() {
@@ -119,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(MapboxMap mapboxMap) {
         map = mapboxMap;
-        map.addOnMapClickListener(this);
+    //    map.addOnMapClickListener(this);
         enableLocation();
     }
 
