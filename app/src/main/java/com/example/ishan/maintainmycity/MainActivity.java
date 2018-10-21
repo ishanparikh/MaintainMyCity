@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         String user = "Anthony";
         String latLng = Double.toString(lat) + '_' + Double.toString(lng);
         long date = new Date().getTime()/1000;
-        String command = "python -c ./lambda.py";
+        String command = "python -c /home/anthony/Documents/Apps/MaintainMyCity/lambda.py";
         String param = " put " + user + " " + latLng + " " + date;
         String s = command + param;
         try {
@@ -152,11 +152,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         if(mapboxMap == null)
         {
             Log.d(tag, "[onMapReady] mapBox is null");
-        } else{
+        } else {
             map = mapboxMap;
             map.getUiSettings().setCompassEnabled(true);
             map.getUiSettings().setZoomControlsEnabled(true);
-            map.addOnMapClickListener(this);
 
             // Make location information available
             enableLocation();
