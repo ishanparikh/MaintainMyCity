@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         String user = "Anthony";
         String latLng = Double.toString(lat) + '_' + Double.toString(lng);
         long date = new Date().getTime()/1000;
-        String command = "python -c ../../../../../../../../lambda.py";
+        String command = "python ../../../../../../../../lambda.py";
         String param = " put " + user + " " + latLng + " " + date;
         String s = command + param;
         try {
