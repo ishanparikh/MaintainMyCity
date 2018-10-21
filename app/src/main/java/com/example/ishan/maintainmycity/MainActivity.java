@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // TODO
         // send these to the lambda functions
-        String user = "Anthony Catterwell";
+        String user = "Anthony";
         String latLng = Double.toString(lat) + '_' + Double.toString(lng);
         long date = new Date().getTime()/1000;
         String command = "python -c ./lambda.py";
