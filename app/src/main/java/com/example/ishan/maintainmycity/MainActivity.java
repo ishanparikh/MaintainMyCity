@@ -110,7 +110,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }).execute();
 
 
-        new DownloadFileTask().execute("URL");
+        //Uncomment below and add the req URL to download GeoJSON file.
+        // new DownloadFileTask().execute("URL");
     }
 
 
