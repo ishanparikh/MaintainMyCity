@@ -38,7 +38,6 @@ import com.mapbox.mapboxsdk.plugins.locationlayer.modes.RenderMode;
 
 import com.amazonaws.mobile.client.AWSMobileClient;
 
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigDecimal;
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         String user = "Anthony";
         String latLng = Double.toString(lat) + '_' + Double.toString(lng);
         long date = new Date().getTime()/1000;
-        String command = "python ../../../../../../../../lambda.py";
+        String command = "python lambda.py";
         String param = " put " + user + " " + latLng + " " + date;
         String s = command + param;
         try {
@@ -163,7 +162,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
 
-
     private void enableLocation() {
         if(PermissionsManager.areLocationPermissionsGranted(this)) {
 
@@ -185,7 +183,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         locationEngine.setPriority(LocationEnginePriority.HIGH_ACCURACY);
         //locationEngine.addLocationEngineListener(this);
         locationEngine.activate();
-
 
         Location lastLocation = locationEngine.getLastLocation();
         if (lastLocation != null) {
@@ -210,7 +207,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 locationLayerPlugin.setRenderMode(RenderMode.NORMAL);
             }
         }
-
     }
 
     private void setCameraPosition(Location location) {
@@ -262,9 +258,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         permissionsManager.onRequestPermissionsResult(requestCode,permissions,grantResults);
     }
 
-
-
-
     @SuppressLint("MissingPermission")
     @Override
     protected void onStart() {
@@ -281,7 +274,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             locationEngine.requestLocationUpdates();
         } if(locationLayerPlugin != null)
             locationLayerPlugin.onStart();
-
 
         mapView.onStart();
     }
@@ -347,11 +339,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     //    destinationMarker = map.addMarker(new MarkerOptions().position(point));
     //    destPos = Point.fromLngLat(point.getLongitude(),point.getLatitude());
     //    origPos = Point.fromLngLat(originLocation.getLongitude(),originLocation.getLatitude());
-
     }
 
-
-    
     public class DownloadCompleteRunner {
          String result;
         public void downloadComplete(String result) {
@@ -370,12 +359,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         }
 
-
         private String loadFileFromNetwork(String urlString) throws IOException {
             return readStream(downloadUrl(new URL(urlString)));
 
         }
-
 
         // Given a string representation of a URL, sets up a connection and gets an input stream.
         private InputStream downloadUrl(URL url) throws IOException {
@@ -401,9 +388,5 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             new DownloadCompleteRunner().downloadComplete(result);
         }
     } // end class DownloadFileTask
-
-
-
-
 }
 
